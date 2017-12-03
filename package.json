@@ -1,6 +1,6 @@
 {
   "name": "@thebasement/redux-crud",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Convenient CRUD actions and reducers",
   "scripts": {
     "build": "webpack --config webpack.config.js --progress",

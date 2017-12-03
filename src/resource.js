@@ -20,6 +20,7 @@ class Resource {
     this.name = name;
     this.endpoint = endpoint;
     this.actionTypes = resourceActionTypes(this.name);
+    this.customActions = customActions;
   }
 
   bindActionCreators(dispatch) {
