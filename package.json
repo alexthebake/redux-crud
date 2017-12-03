@@ -1,0 +1,31 @@
+{
+  "name": "@thebasement/redux-crud",
+  "version": "0.0.5",
+  "description": "Convenient CRUD actions and reducers",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress",
+    "watch": "webpack --watch --config webpack.config.js --progress"
+  },
+  "main": "dist/bundle.js",
+  "repository": "git@github.com:alexthebake/redux-crud.git",
+  "author": "Alex Bake <alexbake7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@thebasement/redux-boilerplate": "^0.0.3",
+    "lodash": "^4.17.4",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "webpack": "^3.5.5"
+  }
+}
